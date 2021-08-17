@@ -1,0 +1,52 @@
+body {
+  background-color: #ffe6e6;
+}
+.m-table {
+  border: solid 2px #000000;
+}
+.profile-photo {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+.dashed-border {
+  border: dashed 2px #000000;
+  padding-left: 10px;
+}
+.dotted-border {
+  border: dotted 2px #000000;
+  padding-left: 10px;
+}
+.double-border {
+  border: double 2px #000000;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+footer p {
+  text-align: center;
+}
+.nav {
+  list-style-type: none;
+  margin-bottom: 10px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000000;
+}
+
+.nav li {
+  float: left;
+}
+
+.nav li a {
+  display: block;
+  padding: 8px 8px 8px 10px;
+  text-decoration: none;
+  color: #ffffff;
+}
+.contact-title {
+  padding: 10px 20px;
+  text-decoration: underline;
+}
+.contact-title__details{
+    padding: 10px 20px; font-size: 20px;
+}

@@ -5,14 +5,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="assets/style.css" rel="stylesheet" />
     <title>Personal Site 😊</title>
 </head>
 
-<body style="background-color: #FFE6E6;">
-    <table cellspacing="20" style="border: solid 2px #000000;">
+<body>
+    <ul class="nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="contact.html">Contact Me</a></li>
+        <li><a href="other.html">Other</a></li>
+        <li><a href="notes.html">Notes</a></li>
+    </ul>
+    <table cellspacing="20" class="m-table">
         <tbody>
             <tr>
-                <td><img src="sailesh.JPG" alt="Asen's Image" style="border-radius:50%; width: 200px; height: 200px;">
+                <td><img src="assets/sailesh.JPG" alt="Sailesh Kumar Gunupudi" class="profile-photo">
                 </td>
                 <td>
                     <h1>Sailesh Kumar Gunupudi</h1>
@@ -39,7 +46,7 @@
         </tbody>
     </table>
     <hr>
-    <div style="border: dashed 2px #000000; padding-left: 10px;">
+    <div class="dashed-border">
         <h3>Education</h3>
         <ul>
             <li>Pursuing PG Diploma in Mobile Application Programming</li>
@@ -50,7 +57,7 @@
     </div>
 
     <hr>
-    <div style="border: dotted 2px #000000; padding-left: 10px;">
+    <div class="dotted-border">
         <h3>Hobbies</h3>
         <ul>
             <li>Coding</li>
@@ -60,7 +67,7 @@
     </div>
 
     <hr>
-    <div style="border: double 2px #000000; padding-left: 10px; padding-bottom: 10px;">
+    <div class="double-border">
         <h3>My Experience</h3>
         <table border="1" style="width: 50%; text-align: center;">
             <thead>
@@ -90,15 +97,15 @@
     <hr>
     <h1>Audio File</h1>
     <audio controls>
-        <source src="sample-audio.mp3" type="audio/mpeg">
+        <source src="assets/sample-audio.mp3" type="audio/mpeg">
     </audio>
     <hr>
     <h1>Video Files</h1>
     <video controls>
-        <source src="sample-video.mp4" type="video/mp4">
+        <source src="assets/sample-video.mp4" type="video/mp4">
     </video>
     <video controls>
-        <source src="sample-video.mp4" type="video/mp4">
+        <source src="assets/sample-video.mp4" type="video/mp4">
         <track src="sample.vtt" kind="captions" label="english" srclang="en" default>
     </video>
     <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/i8rnp074ZuA"
@@ -109,7 +116,7 @@
     <strong><a href="other.html">Contact Me</a></strong>
 </body>
 <footer>
-    <p style="text-align: center;">&copy; Copy Right Reserved 2021 <a href="contact.html">Sailesh Kumar</a> </p>
+    <p>&copy; Copy Right Reserved 2021 <a href="contact.html">Sailesh Kumar</a> </p>
 </footer>
 
 </html>
